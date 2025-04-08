@@ -13,7 +13,9 @@ Recognizing the need for structured approaches to AI testing, several organizati
 
 - **OWASP AI Security and Privacy Guide**: This working document offers clear and actionable insights on designing, creating, testing, and procuring secure and privacy-preserving AI systems. [OWASP AI Security and Privacy Guide](https://owasp.org/www-project-ai-security-and-privacy-guide/)
 
-- **OWASP Top 10 for LLM**: [OWASP Top 10 for Large Language Models (LLM)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **OWASP Top 10 for LLM**: Top 10 risks, vulnerabilities and mitigations for developing and securing generative AI and large language model applications across the development, deployment and management lifecycle. [OWASP Top 10 for Large Language Models (LLM)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+
+- NIST AI 100-2e2025 - Adversarial Machine Learning A Taxonomy and Terminology of Attacks and Mitigations: [NIST AI 100](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-2e2025.pdf)
 
 ## Objective of This Guide
 
