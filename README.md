@@ -13,7 +13,7 @@ Recognizing the need for structured approaches to AI testing, several organizati
 
 - **OWASP AI Security and Privacy Guide**: This working document offers clear and actionable insights on designing, creating, testing, and procuring secure and privacy-preserving AI systems. [OWASP AI Security and Privacy Guide](https://owasp.org/www-project-ai-security-and-privacy-guide/)
 
-- **[OWASP Top 10 for Large Language Models (LLM)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- **OWASP Top 10 for LLM**: [OWASP Top 10 for Large Language Models (LLM)](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 
 ## Objective of This Guide
 
