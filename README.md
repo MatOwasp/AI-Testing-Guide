@@ -25,4 +25,4 @@ For contributions, feedback, or collaboration, reach out to the project leader:
 
 - **Matteo Meucci**
   - Email: [matteo.meucci@owasp.org](mailto:matteo.meucci@owasp.org)
-  - Start contributing now on Githug: [Table of Content](https://github.com/MatOwasp/AI-Testing-Guide/blob/8fc6715add5191a45ec7f87de541ae25995df860/README.md)
+  - Start contributing now on Githug: [Table of Content](Document/README.md)
