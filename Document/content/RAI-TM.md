@@ -6,23 +6,33 @@ Threat Modeling performed in the previous paragraph is not enoght.
 
  **AI-specific risks extend far beyond that**:
 
-### Responsible AI Threats
-
-| Category | Examples |
-|---------|----------|
-| **Bias & Discrimination** | Models producing unfair outputs across race, gender, language, etc. |
-| **Lack of Explainability** | Opaque decisions, especially in high-stakes domains (health, finance) |
-| **Hallucinations** | Generation of false or misleading facts |
-| **Over-reliance on AI (Automation Bias)** | Users blindly trusting incorrect AI decisions |
-| **Non-representative Training Data** | Model fails in underrepresented regions or edge cases |
-| **Toxic or Harmful Content** | Outputs that promote violence, hate speech, misinformation |
-| **Lack of Transparency or Auditability** | Inability to trace data lineage, model decisions, or updates |
-| **Misalignment with Human Intent** | Agents taking unintended actions due to mis-specified goals |
-
 ### The Expanded Testing Approach
 
 Back to the AI System Architecure, we need to perform a more deeply TM. Here is the result:
 
+image
+
+### Responsible AI / Trustworthy AI Additions Only
+
+#### 🟦 AI Application Testing (4 additions):
+1. Hallucinations  
+2. Toxic Content Generation  
+3. Automation Bias  
+4. Lack of Explainability
+
+#### 🟪 AI Model Testing (3 additions):
+5. Bias and Discrimination  
+6. Overfitting and Generalization  
+7. Misalignment with Human Intent
+
+#### 🟩 AI Infrastructure Testing (2 additions):
+8. Insecure Plugin/Agent Integration  
+9. Privilege Escalation via Agentic Systems
+
+#### 🟨 AI Data Testing (3 additions):
+10. Non-representative Training Data  
+11. Toxic or Harmful Training Data  
+12. Data Privacy Violations
 
 
 To address both **security** and **responsible AI risks**, we define four focused testing domains:
