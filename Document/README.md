@@ -8,12 +8,9 @@ tags: AITG
 
 # Table of Contents
 
-[1.Introduction](content/1.Introduction.md)
+1. [Introduction](content/1.Introduction.md)
+1.1 [Objectives](content/1.2Objectives.md)
 
-[--1.1 Why an AI Testing Guide?](content/1.1Why-AITG.md)
+2. [AI System Threat Modeling](content/2.AI-TM.md)
 
-[--1.2 Objectives](content/1.2Objectives.md)
-
-[2.AI System Threat Modeling](content/2.AI-TM.md)
-
-[3.AI Testing Guide Framework](content/3.AITG-Framework.md)
+3. [AI Testing Guide Framework](content/3.AITG-Framework.md)
