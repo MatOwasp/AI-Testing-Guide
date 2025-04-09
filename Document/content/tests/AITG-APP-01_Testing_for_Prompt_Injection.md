@@ -81,7 +81,7 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
 **Suggested tools for this specific test:**
 
 - ✅ [Garak](https://github.com/leondz/garak) – Prompt injection testing framework.  
-- ✅ [LLM Guard](https://github.com/promptguard/llm-guard) – Detects and blocks common prompt injection patterns.  
+- ✅ [LLM Guard](https://github.com/protectai/llm-guard/blob/main/docs/input_scanners/prompt_injection.md) – Detects and blocks common prompt injection patterns.  
 - ✅ [OpenPromptEval](https://github.com/integrateai/OpenPromptEval) – Benchmarking robustness of prompt filters.  
 - ✅ [Microsoft Prompt Injection Analyzer](https://learn.microsoft.com/en-us/security/zero-trust/developer/prompt-injection-threat-modeling) – Modeling and detection.
 
@@ -93,5 +93,4 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
   [https://simonwillison.net/2023/Feb/20/prompt-injection/](https://simonwillison.net/2023/Feb/20/prompt-injection/)  
 - **“Garak: Prompt Injection Testing Tool”** – Leon Derczynski  
   [https://github.com/leondz/garak](https://github.com/leondz/garak)  
-- **“AI Risk Management Framework”** – NIST (2023)  
-  [https://www.nist.gov/itl/ai-risk-management-framework](https://www.nist.gov/itl/ai-risk-management-framework)  
+- **“LLM01:2025 Prompt Injection”** – [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)
