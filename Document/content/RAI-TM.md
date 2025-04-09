@@ -117,17 +117,19 @@ The following is the updated version of the four domain-specific tables with tes
 |---------------|-----------------------------------|-------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------|
 | AITG-APP-01   | Prompt Injection                  | OWASP Top 10 LLM 2025   | [LLM01](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)                         | Testing for Prompt Injection                |
 | AITG-APP-02   | Indirect Prompt Injection         | OWASP Top 10 LLM 2025   | [LLM01](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)                         | Testing for Indirect Prompt Injection        |
-| AITG-APP-03   | Sensitive Data Leak               | OWASP Top 10 LLM 2025   | [LLM02](https://genai.owasp.org/llmrisk/llm02-sensitive-information-disclosure/)         | Testing for Sensitive Data Leak             |
+| AITG-APP-03   | Sensitive Information Disclosure          | OWASP Top 10 LLM 2025   | [LLM02](https://genai.owasp.org/llmrisk/llm02-sensitive-information-disclosure/)         | Testing for Sensitive Data Leak             |
 | AITG-APP-04   | Leak Sensitive Input Data         | OWASP Top 10 LLM 2025   | [LLM02](https://genai.owasp.org/llmrisk/llm02-sensitive-information-disclosure/)         | Testing for Input Leakage                   |
 | AITG-APP-05   | Improper Output Handling          | OWASP Top 10 LLM 2025   | [LLM05](https://genai.owasp.org/llmrisk/llm05-improper-output-handling/)                 | Testing for Unsafe Outputs                  |
 | AITG-APP-06   | Excessive Agency                  | OWASP Top 10 LLM 2025   | [LLM06](https://genai.owasp.org/llmrisk/llm06-excessive-agency/)                         | Testing for Agentic Behavior Limits         |
 | AITG-APP-07   | System Prompt Leakage             | OWASP Top 10 LLM 2025   | [LLM07](https://genai.owasp.org/llmrisk/llm07-system-prompt-leakage/)                    | Testing for Prompt Disclosure               |
 | AITG-APP-08   | Vector & Embedding Weaknesses     | OWASP Top 10 LLM 2025   | [LLM08](https://genai.owasp.org/llmrisk/llm08-vector-and-embedding-weaknesses/)          | Testing for Embedding Manipulation          |
-| AITG-APP-09   | Misinformation                    | OWASP Top 10 LLM 2025   | [LLM09](https://genai.owasp.org/llmrisk/llm09-misinformation/)                           | Testing for Harmful Content Bias            |
-| AITG-APP-10   | Hallucinations                    | Trustworthy AI          | —                                                                                         | Testing for Hallucinations                  |
-| AITG-APP-11   | Toxic Content Generation          | Responsible AI          | —                                                                                         | Testing for Toxic Output                    |
-| AITG-APP-12   | Automation Bias                   | Responsible AI          | —                                                                                         | Testing for Over-Reliance on AI             |
-| AITG-APP-13   | Lack of Explainability            | Responsible AI          | —                                                                                         | Testing for Explainability and Interpretability |
+| AITG-APP-09 | Model Theft Through Use | OWASP AI Exchange | [link](https://owaspai.org/docs/2_threats_through_use/#23-model-reversal) | Testing for Model Extraction |
+| AITG-APP-10   | Misinformation                    | OWASP Top 10 LLM 2025   | [LLM09](https://genai.owasp.org/llmrisk/llm09-misinformation/)                           | Testing for Harmful Content Bias            |
+| AITG-APP-11   | Hallucinations                    | Trustworthy AI          | —                                                                                         | Testing for Hallucinations                  |
+| AITG-APP-12   | Toxic Content Generation          | Responsible AI          | —                                                                                         | Testing for Toxic Output                    |
+| AITG-APP-13   | Automation Bias                   | Responsible AI          | —                                                                                         | Testing for Over-Reliance on AI             |
+| AITG-APP-14   | Lack of Explainability            | Responsible AI          | —                                                                                         | Testing for Explainability and Interpretability |
+
 
 ---
 
@@ -141,9 +143,8 @@ The following is the updated version of the four domain-specific tables with tes
 | AITG-MOD-04   | Fine-tuning Poisoning             | OWASP Top 10 LLM 2025   | [LLM04](https://genai.owasp.org/llmrisk/llm04-data-and-model-poisoning/)                 | Testing for Fine-tuning Poisoning           |
 | AITG-MOD-05   | Membership Inference              | OWASP AI Exchange       | [Threat 2.4](https://owaspai.org/docs/2_threats_through_use/#24-training-set-membership-inference) | Testing for Membership Inference            |
 | AITG-MOD-06   | Model Inversion                   | OWASP AI Exchange       | [Threat 2.4](https://owaspai.org/docs/2_threats_through_use/#24-training-set-membership-inference) | Testing for Inversion Attacks               |
-| AITG-MOD-07   | Bias and Discrimination           | Responsible AI          | —                                                                                         | Testing for Fairness & Bias                 |
-| AITG-MOD-08   | Overfitting / Generalization      | Trustworthy AI          | —                                                                                         | Testing for Robustness to New Data          |
-| AITG-MOD-09   | Misalignment with Human Intent    | Trustworthy AI          | —                                                                                         | Testing for Goal Alignment                  |
+| AITG-MOD-07   | Overfitting / Generalization      | Trustworthy AI          | —                                                                                         | Testing for Robustness to New Data          |
+| AITG-MOD-08   | Misalignment with Human Intent    | Trustworthy AI          | —                                                                                         | Testing for Goal Alignment                  |
 
 ---
 
@@ -155,7 +156,8 @@ The following is the updated version of the four domain-specific tables with tes
 | AITG-INF-02   | Denial of Service (Unbounded)     | OWASP Top 10 LLM 2025   | [LLM10](https://genai.owasp.org/llmrisk/llm10-unbounded-consumption/)                     | Testing for Resource Exhaustion              |
 | AITG-INF-03   | Insecure Plugin/Agent Integration | Trustworthy AI          | —                                                                                         | Testing for Plugin Boundary Violations       |
 | AITG-INF-04   | Privilege Escalation via Agentic Systems | Responsible AI    | —                                                                                         | Testing for Capability Misuse                |
-
+| AITG-INF-05 | Data Poisoning during Fine-tuning | OWASP Top 10 LLM 2025 | [LLM04](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/) | Testing for Fine-tuning Poisoning |
+| AITG-INF-06   | Dev-Time Model Theft              | OWASP AI Exchange       | [Threat 2.2](https://owaspai.org/docs/2_threats_through_use/#22-model-exfiltration)       | Testing for Dev-Time Model Theft             |
 ---
 
 ## 🟨 AI Data Testing
@@ -163,9 +165,7 @@ The following is the updated version of the four domain-specific tables with tes
 | Test ID       | Threat Name                       | Source                  | Link                                                                                      | Suggested Test Name                         |
 |---------------|-----------------------------------|-------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------|
 | AITG-DAT-01   | Training Data Leakage             | OWASP AI Exchange       | [Threat 2.5](https://owaspai.org/docs/2_threats_through_use/#25-training-data-leakage)    | Testing for Training Data Exposure           |
-| AITG-DAT-02   | Dev-Time Model Theft              | OWASP AI Exchange       | [Threat 2.2](https://owaspai.org/docs/2_threats_through_use/#22-model-exfiltration)       | Testing for Dev-Time Model Theft             |
 | AITG-DAT-03   | Runtime Model Theft               | OWASP AI Exchange       | [Threat 2.2](https://owaspai.org/docs/2_threats_through_use/#22-model-exfiltration)       | Testing for Runtime Exfiltration             |
-| AITG-DAT-04   | Model Theft Through Use           | OWASP AI Exchange       | [Threat 2.3](https://owaspai.org/docs/2_threats_through_use/#23-model-reversal)           | Testing for Model Extraction                 |
 | AITG-DAT-05   | Non-representative Data           | Responsible AI          | —                                                                                         | Testing for Dataset Diversity & Coverage     |
 | AITG-DAT-06   | Toxic Training Data               | Responsible AI          | —                                                                                         | Testing for Harmful Content in Training Data |
 | AITG-DAT-07   | Data Privacy Violations           | Trustworthy AI          | —                                                                                         | Testing for Data Minimization & Consent      |
