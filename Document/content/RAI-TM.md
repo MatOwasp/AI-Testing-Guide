@@ -2,9 +2,7 @@
 
 Modern AI systems are not only susceptible to technical security threats like prompt injection or data poisoning, but also to **ethical, social, and governance risks** that affect **trustworthiness**, **fairness**, and **compliance**.
 
-Threat Modeling performed in the previous paragraph is not enoght.
-
- **AI-specific risks extend far beyond that**:
+Threat Modeling performed in the previous paragraph is not enought, we need to expand the approach.
 
 ### The Expanded Testing Approach
 
