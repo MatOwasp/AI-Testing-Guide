@@ -14,6 +14,8 @@ tags: AITG
 
 2. [AI System Threat Modeling](content/2.AI-TM.md)
 
-2.1 [Identify AI System threats](content/2.1IdentifyAIThreats.md)
+2.1 [Identify AI System Security threats](content/2.1IdentifyAIThreats.md)
+
+2.2 [Identify AI System Trustworthy threats](content/RAI-TM.md)
 
 3. [AI Testing Guide Framework](content/3.AITG-Framework.md)
