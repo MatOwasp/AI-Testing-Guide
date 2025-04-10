@@ -4,7 +4,7 @@
 Input leakage occurs when sensitive or confidential information provided as input to a large language model (LLM) unintentionally surfaces in subsequent interactions or outputs. This issue arises when models store or inadvertently reproduce sensitive input details, potentially revealing private, confidential, or protected data.
 
 ### Test Objectives
-Technically verify if an LLM or AI application inadvertently reveals sensitive input data in its future outputs. This test addresses input leakage issues as outlined in OWASP Top 10 LLM02:2025.
+Technically verify if an LLM or AI application inadvertently reveals sensitive input data in its future outputs. This test addresses input leakage issues as outlined in OWASP Top 10 LLM02:2025. This test aims to understand if the AI system is able to verify that user is sending something confidential. So we try to send something confidetial to the system then ask for a proof.
 
 ### Test/Payloads
 
