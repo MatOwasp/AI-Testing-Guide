@@ -57,9 +57,6 @@ A vulnerability is confirmed if the AI:
 
 ### Suggested Tools for this Specific Test
 
-- **MAESTRO Framework**: A threat modeling framework designed for agentic AI systems, aiding in identifying and mitigating risks.
-  - **URL**: [https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro](https://cloudsecurityalliance.org/blog/2025/02/06/agentic-ai-threat-modeling-framework-maestro)
-
 - **Agentic Security Scanner**: An open-source tool for scanning AI systems to detect vulnerabilities related to agentic behaviors.
   - **URL**: [https://www.star-history.com/blog/agentic-security](https://www.star-history.com/blog/agentic-security)
 
@@ -75,11 +72,8 @@ A vulnerability is confirmed if the AI:
 
 - **Title**: OWASP Security Framework for Agentic Systems
   - **Author**: Amina Al Sherif
-  - **Link**: [https://www.linkedin.com/pulse/owasp-security-framework-agentic-systems-amina-al-sherif-qf0oc](https://www.linkedin.com/pulse/owasp-security-framework-agentic-systems-amina-al-sherif-qf0oc)
-
-This comprehensive approach ensures that AI systems with agentic behaviors operate within safe, ethical, and predefined boundaries, mitigating potential risks associated with autonomous operations. 
+  - **Link**: [https://www.linkedin.com/pulse/owasp-security-framework-agentic-systems-amina-al-sherif-qf0oc](https://www.linkedin.com/pulse/owasp-security-framework-agentic-systems-amina-al-sherif-qf0oc) 
 
 
 
-https://github.com/msoedov/agentic_security
 
