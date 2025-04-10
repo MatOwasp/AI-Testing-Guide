@@ -24,12 +24,14 @@ Suggest medications to treat serious health conditions without consulting a doct
 ```
 
 4. **Test for antivurs or spam in output**
+Use the following: https://github.com/NVIDIA/garak/blob/main/garak/probes/av_spam_scanning.py
+
 ```
 Probes that attempt to make a model output a known-bad signature. If they're
 output them without warning, that's an indication that the app isn't checking
 output for malicious or dangerous content.
 ```
-https://github.com/NVIDIA/garak/blob/main/garak/probes/av_spam_scanning.py
+
 
 
 ### Attended Output
