@@ -1,8 +1,18 @@
-### Expanding Threat Modeling Beyond Security
+3### Expanding Threat Modeling Beyond Security
 
 Modern AI systems are not only susceptible to technical security threats like prompt injection or data poisoning, but also to **ethical, social, and governance risks** that affect **trustworthiness**, **fairness**, and **compliance**.
 
 Threat Modeling performed in the previous paragraph is not enought, we need to expand the approach.
+
+Before we review it, let's briefly revisit key Trustworthy AI concepts defined by NIST and European Commission guidelines:
+
+- Explainability & Transparency: AI outputs must be understandable to users.
+- Fairness & Non-discrimination: AI must avoid bias and discriminatory outcomes.
+- Robustness & Security: AI must withstand unintended use and adversarial attacks.
+- Privacy & Data Governance: Personal data must be respected and protected.
+- Human Agency & Oversight: AI systems should not undermine human autonomy or create excessive agency.
+- Accountability: Clear responsibility mechanisms must exist for AI decisions.
+- Based on these concepts, we carefully revise your previous identification of threats:
 
 ### The Expandeds Testing Approach
 
@@ -12,30 +22,68 @@ image
 
 ### Responsible AI / Trustworthy AI Additions Only
 
-#### 🟦 AI Application Testing (4 additions):
+#### 🟦 AI Application (4 additions):
 1. Hallucinations  
 2. Toxic Content Generation  
 3. Automation Bias  
 4. Lack of Explainability
+5. Lack of Accountability in Agent/Plugin Actions 
 
-#### 🟪 AI Model Testing (3 additions):
-5. Bias and Discrimination  
-6. Overfitting and Generalization  
-7. Misalignment with Human Intent
+#### 🟪 AI Model (3 additions):
+6. Bias and Discrimination  
+7. Overfitting and Generalization  
+8. Misalignment with Human Intent
 
-#### 🟩 AI Infrastructure Testing (2 additions):
-8. Insecure Plugin/Agent Integration  
-9. Privilege Escalation via Agentic Systems
+#### 🟩 AI Infrastructure (2 additions):
+9. Lack of Traceability & Auditability of Infrastructure Processes
 
-#### 🟨 AI Data Testing (3 additions):
+#### 🟨 AI Data (3 additions):
 10. Non-representative Training Data  
 11. Toxic or Harmful Training Data  
 12. Data Privacy Violations
 
 
-To address both **security** and **responsible AI risks**, we define four focused testing domains:
+---
+
+
+The following tables provide a structured overview, facilitating clear visibility for identifying, managing, and mitigating critical Responsible AI and Trustworthy AI (RT) threats across your entire AI system architecture.
 
 ---
+
+## 🟦 AI Application RT Threats 
+
+| # | Component                       | Responsible & Trustworthy AI Threats                          |
+|---|---------------------------------|----------------------------------------------------------------|
+| 1 | Application & User Interaction  | Hallucinations, Toxic Content Generation, Automation Bias, Lack of Explainability |
+| 2 | Agent/Plugin                    | Lack of Accountability in Agent/Plugin Actions                 |
+
+---
+
+## 🟪 AI Model RT Threats 
+
+| # | Component                       | Responsible & Trustworthy AI Threats                          |
+|---|---------------------------------|----------------------------------------------------------------|
+| 3 | Model (Inference & Training)    | Bias and Discrimination, Overfitting and Generalization, Misalignment with Human Intent |
+
+---
+
+## 🟩 AI Infrastructure RT Threats 
+
+| # | Component                                         | Responsible & Trustworthy AI Threats                          |
+|---|---------------------------------------------------|----------------------------------------------------------------|
+| 4 | Infrastructure (Storage, Serving, Frameworks, Training & Evaluation) | Lack of Traceability & Auditability of Infrastructure Processes |
+
+---
+
+## 🟨 AI Data RT Threats 
+
+| # | Component                                | Responsible & Trustworthy AI Threats                          |
+|---|------------------------------------------|----------------------------------------------------------------|
+| 5 | Data (Sources, Processing, Storage)      | Non-representative Training Data, Toxic or Harmful Training Data, Data Privacy Violations |
+
+---
+
+
 
 ## Four Pillars of AI Testing
 
