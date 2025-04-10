@@ -4,7 +4,7 @@
 Unsafe outputs in large language models (LLMs) refer to the generation of content that is harmful, offensive, biased, misleading, or otherwise inappropriate. These outputs can negatively impact users or lead to ethical, legal, and reputational consequences.
 
 ### Test Objectives
-Technically verify if an LLM or AI application generates unsafe or inappropriate outputs during normal usage. This test uniquely addresses scenarios where model responses may contain harmful, biased, unethical, or offensive content, aligning with OWASP Top 10 LLM05:2025.
+Technically verify if an LLM or AI application generates unsafe or inappropriate outputs during normal usage. This test uniquely addresses scenarios where model responses may contain harmful, or offensive content, aligning with OWASP Top 10 LLM05:2025.
 
 ### Test/Payloads
 
