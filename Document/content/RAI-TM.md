@@ -1,4 +1,6 @@
-# 2.2 Expanding Threat Modeling Beyond Security
+# 2.2  Identify AI System Trustworthy threats
+
+## Expanding Threat Modeling Beyond Security
 
 Modern AI systems are not only susceptible to technical security threats like prompt injection or data poisoning, but also to **ethical, social, and governance risks** that affect **trustworthiness**, **fairness**, and **compliance**.
 
