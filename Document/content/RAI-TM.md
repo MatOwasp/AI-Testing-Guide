@@ -1,4 +1,4 @@
-# 2.3 Expanding Threat Modeling Beyond Security
+# 2.2 Expanding Threat Modeling Beyond Security
 
 Modern AI systems are not only susceptible to technical security threats like prompt injection or data poisoning, but also to **ethical, social, and governance risks** that affect **trustworthiness**, **fairness**, and **compliance**.
 
@@ -219,3 +219,11 @@ The following is the updated version of the four domain-specific tables with tes
 | AITG-DAT-04   | Non-representative Data           | Responsible AI          | —                                                                                         | Testing for Dataset Diversity & Coverage     |
 | AITG-DAT-05   | Toxic Training Data               | Responsible AI          | —                                                                                         | Testing for Harmful Content in Training Data |
 | AITG-DAT-06   | Data Privacy Violations           | Trustworthy AI          | —                                                                                         | Testing for Data Minimization & Consent      |
+
+---
+NEXT:
+---
+NEXT:
+3. [AI Testing Guide Framework](3.AITG-Frameworkmd)
+
+[Table of Contents](/Document/README.md)
