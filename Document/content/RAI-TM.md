@@ -16,7 +16,13 @@ Before we review it, let's briefly revisit key Trustworthy AI concepts defined b
 
 Back to the AI System Architecure, we need to perform a more deeply TM. Here is the result:
 
-RT-Threats.png
+
+
+<p align="center">
+  <img src="/Document/images/RT-Threats.png" alt="Description" width="800"/>
+</p>
+
+
 
 ### Responsible AI / Trustworthy AI Additions Only
 
