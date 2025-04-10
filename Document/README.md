@@ -6,7 +6,7 @@ tags: AITG
 
 ---
 
-# Table of Contents
+# AI Testing Guide Table of Contents
 
 1. [Introduction](content/1.Introduction.md)
 
