@@ -14,8 +14,6 @@ Before we review it, let's briefly revisit key Trustworthy AI concepts defined b
 - Accountability: Clear responsibility mechanisms must exist for AI decisions.
 - Based on these concepts, we carefully revise your previous identification of threats:
 
-### The Expandeds Testing Approach
-
 Back to the AI System Architecure, we need to perform a more deeply TM. Here is the result:
 
 RT-Threats.png
