@@ -4,7 +4,7 @@ Modern AI systems are not only susceptible to technical security threats like pr
 
 Threat Modeling performed in the previous paragraph is not enought, we need to expand the approach.
 
-### The Expanded Testing Approach
+### The Expandeds Testing Approach
 
 Back to the AI System Architecure, we need to perform a more deeply TM. Here is the result:
 
