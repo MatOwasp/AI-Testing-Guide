@@ -165,7 +165,7 @@ The following is the updated version of the four domain-specific tables with tes
 
 ## 🟦 AI Application Testing
 
-| Test ID       | Threat Name                       | Source                  | Link                                                                                      | Suggested Test Name                         |
+| Test ID       | Threat Name                       | Source                  | Link                                                                                      | Test Name                         |
 |---------------|-----------------------------------|-------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------|
 | AITG-APP-01   | Prompt Injection                  | OWASP Top 10 LLM 2025   | [LLM01](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)                         | Testing for Prompt Injection                |
 | AITG-APP-02   | Indirect Prompt Injection         | OWASP Top 10 LLM 2025   | [LLM01](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)                         | Testing for Indirect Prompt Injection        |
@@ -187,7 +187,7 @@ The following is the updated version of the four domain-specific tables with tes
 
 ## 🟪 AI Model Testing
 
-| Test ID       | Threat Name                       | Source                  | Link                                                                                      | Suggested Test Name                         |
+| Test ID       | Threat Name                       | Source                  | Link                                                                                      | Test Name                         |
 |---------------|-----------------------------------|-------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------|
 | AITG-MOD-01   | Adversarial Input (Evasion)       | OWASP AI Exchange       | [Threat 2.1](https://owaspai.org/docs/2_threats_through_use/#21-adversarial-input-evasion) | Testing for Evasion Attacks                 |
 | AITG-MOD-02   | Runtime Model Poisoning           | OWASP Top 10 LLM 2025   | [LLM04](https://genai.owasp.org/llmrisk/llm04-data-and-model-poisoning/)                 | Testing for Runtime Model Poisoning         |
@@ -202,7 +202,7 @@ The following is the updated version of the four domain-specific tables with tes
 
 ## 🟩 AI Infrastructure Testing
 
-| Test ID       | Threat Name                       | Source                  | Link                                                                                      | Suggested Test Name                         |
+| Test ID       | Threat Name                       | Source                  | Link                                                                                      | Test Name                         |
 |---------------|-----------------------------------|-------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------|
 | AITG-INF-01   | Supply Chain Model Poisoning      | OWASP Top 10 LLM 2025   | [LLM03](https://genai.owasp.org/llmrisk/llm03-supply-chain/)                              | Testing for Supply Chain Tampering           |
 | AITG-INF-02   | Denial of Service (Unbounded)     | OWASP Top 10 LLM 2025   | [LLM10](https://genai.owasp.org/llmrisk/llm10-unbounded-consumption/)                     | Testing for Resource Exhaustion              |
@@ -214,13 +214,13 @@ The following is the updated version of the four domain-specific tables with tes
 
 ## 🟨 AI Data Testing
 
-| Test ID       | Threat Name                       | Source                  | Link                                                                                      | Suggested Test Name                         |
+| Test ID       | Threat Name                       | Source                  | Link                                                                                      | Test Name                         |
 |---------------|-----------------------------------|-------------------------|-------------------------------------------------------------------------------------------|----------------------------------------------|
 | AITG-DAT-01   | Training Data Leakage             | OWASP AI Exchange       | [Threat 2.5](https://owaspai.org/docs/2_threats_through_use/#25-training-data-leakage)    | Testing for Training Data Exposure           |
-| AITG-DAT-03   | Runtime Model Theft               | OWASP AI Exchange       | [Threat 2.2](https://owaspai.org/docs/2_threats_through_use/#22-model-exfiltration)       | Testing for Runtime Exfiltration             |
-| AITG-DAT-04   | Non-representative Data           | Responsible AI          | —                                                                                         | Testing for Dataset Diversity & Coverage     |
-| AITG-DAT-05   | Toxic Training Data               | Responsible AI          | —                                                                                         | Testing for Harmful Content in Training Data |
-| AITG-DAT-06   | Data Privacy Violations           | Trustworthy AI          | —                                                                                         | Testing for Data Minimization & Consent      |
+| AITG-DAT-02   | Runtime Model Theft               | OWASP AI Exchange       | [Threat 2.2](https://owaspai.org/docs/2_threats_through_use/#22-model-exfiltration)       | Testing for Runtime Exfiltration             |
+| AITG-DAT-03   | Non-representative Data           | Responsible AI          | —                                                                                         | Testing for Dataset Diversity & Coverage     |
+| AITG-DAT-04   | Toxic Training Data               | Responsible AI          | —                                                                                         | Testing for Harmful Content in Training Data |
+| AITG-DAT-05   | Data Privacy Violations           | Trustworthy AI          | —                                                                                         | Testing for Data Minimization & Consent      |
 
 ---
 NEXT:
