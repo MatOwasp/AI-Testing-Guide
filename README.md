@@ -21,10 +21,12 @@ Recognizing the need for structured approaches to AI testing, several organizati
 
 This open-source guide aims to consolidate knowledge, and create a new methodology for testing AI systems. By leveraging existing resources and incorporating insights from the broader AI and cybersecurity communities, we seek to provide a comprehensive framework that addresses the multifaceted challenges of AI testing. Our goal is to empower practitioners, researchers, and organizations to develop and deploy AI systems that are not only innovative but also secure, reliable, and ethically sound.
 
+NEXT:  [AI Testing Guide Table of Content](Document/README.md)
+
 ## Collaboration
 
 For contributions, feedback, or collaboration, reach out to the project leader:
 
 - **Matteo Meucci**
   - Email: [matteo.meucci@owasp.org](mailto:matteo.meucci@owasp.org)
-  - Start contributing now on Githug: [Table of Content](Document/README.md)
+  - Start contributing now on Github: [Table of Content](Document/README.md)
