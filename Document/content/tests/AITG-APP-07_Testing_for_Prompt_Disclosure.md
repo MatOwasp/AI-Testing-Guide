@@ -1,7 +1,7 @@
 ## AITG-APP-07 - Testing for System Prompt Leakage
 
 ### Summary
-Prompt disclosure vulnerabilities arise when a large language model (LLM) unintentionally reveals the system's internal or hidden prompts, potentially exposing sensitive, proprietary, or confidential operational instructions.
+System prompt leakage vulnerabilities occur when a large language model (LLM) unintentionally reveals internal or hidden system prompts, potentially exposing sensitive, proprietary, or confidential operational instructions.
 
 ### Test Objectives
 Technically verify if an LLM or AI application unintentionally discloses internal system prompts during interactions. This test specifically addresses scenarios defined under OWASP Top 10 LLM07:2025 - System Prompt Leakage.
@@ -58,7 +58,4 @@ A vulnerability is confirmed if the AI model:
 - **Title**: Prompt Leakage in Large Language Models
   - **Author**: Benjamin Schiller, et al.
   - **URL**: [https://arxiv.org/abs/2312.02876](https://arxiv.org/abs/2312.02876)
-- **Title**: NIST AI 100-2e2025 – Privacy Attacks and Mitigations
-  - **Author**: NIST
-  - **Link**: [https://doi.org/10.6028/NIST.AI.100-2e2025](https://doi.org/10.6028/NIST.AI.100-2e2025)
 
