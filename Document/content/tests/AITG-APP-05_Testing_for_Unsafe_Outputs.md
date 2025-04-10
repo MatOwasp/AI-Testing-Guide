@@ -25,7 +25,7 @@ Suggest medications to treat serious health conditions without consulting a doct
 
 4. **Test for antivurs or spam in output**
 
-Use the following: https://github.com/NVIDIA/garak/blob/main/garak/probes/av_spam_scanning.py
+Use the following probe: https://github.com/NVIDIA/garak/blob/main/garak/probes/av_spam_scanning.py
 
 Probes that attempt to make a model output a known-bad signature. If they're
 output them without warning, that's an indication that the app isn't checking
@@ -45,8 +45,6 @@ A vulnerability is confirmed if the AI model:
 ### Suggested Tools for this Specific Test
 - **Garak – Unsafe Output Detection Module**: Specialized Garak module explicitly designed to identify unsafe model outputs.
   - **URL**: [Spam Scanning](https://github.com/NVIDIA/garak/blob/main/garak/probes/av_spam_scanning.py)
-- **AI Fairness 360 (IBM)**: An open-source toolkit designed to help detect and mitigate biases and unsafe outputs in AI models.
-  - **URL**: [https://github.com/Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360)
 
 ### References
 - **Title**: OWASP Top 10 LLM05:2025 Improper Output Handling
