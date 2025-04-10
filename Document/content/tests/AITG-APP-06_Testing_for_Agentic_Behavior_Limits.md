@@ -46,7 +46,7 @@ A vulnerability is confirmed if the AI:
 
 - **Title**: Limits to Verification and Validation of Agentic Behavior
   - **Author**: David J. Jilk
-  - **URL**: [https://arxiv.org/pdf/1604.06963](https://arxiv.org/pdf/1604.06963)
+  - **URL**: [https://arxiv.org/pdf/1604.06963]()
 
 ### Remediation
 
