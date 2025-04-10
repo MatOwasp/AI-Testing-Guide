@@ -224,6 +224,6 @@ The following is the updated version of the four domain-specific tables with tes
 NEXT:
 ---
 NEXT:
-3. [AI Testing Guide Framework](3.AITG-Frameworkmd)
+3. [AI Testing Guide Framework](3.AITG-Framework.md)
 
 [Table of Contents](/Document/README.md)
