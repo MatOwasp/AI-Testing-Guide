@@ -18,7 +18,7 @@ Before we review it, let's briefly revisit key Trustworthy AI concepts defined b
 
 Back to the AI System Architecure, we need to perform a more deeply TM. Here is the result:
 
-image
+RT-Threats.png
 
 ### Responsible AI / Trustworthy AI Additions Only
 
@@ -47,8 +47,6 @@ image
 
 
 The following tables provide a structured overview, facilitating clear visibility for identifying, managing, and mitigating critical Responsible AI and Trustworthy AI (RT) threats across your entire AI system architecture.
-
----
 
 ## 🟦 AI Application RT Threats 
 
