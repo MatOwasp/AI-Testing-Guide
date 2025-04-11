@@ -4,6 +4,8 @@
 ### Summary
 Prompt injection vulnerabilities occur when user-provided prompts directly manipulate a large language model's (LLM) intended behavior, causing unintended or malicious outcomes. This includes overriding system prompts, exposing sensitive information, or performing unauthorized actions. In this section we analyse the basic Prompt injection techniques: dedicating separate testing for system prompots, sensitive information, unauthorized or harmful action.
 
+
+
 ### Test Objectives
 Technically verify if an LLM or AI application is vulnerable to prompt injection techniques can be directly influenced through carefully crafted prompts to perform unauthorized actions or generate harmful outputs. This test specifically addresses direct prompt injection techniques as defined in OWASP Top 10 LLM01:2025.
 
@@ -163,6 +165,7 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
 ### Suggested Tools for this Specific Test
 - **Garak – Prompt Injection Probe**: Specifically designed module within Garak for detecting prompt injection vulnerabilities.
   - **URL**: [https://github.com/NVIDIA/garak/blob/main/garak/probes/promptinject.py](https://github.com/NVIDIA/garak/blob/main/garak/probes/promptinject.py)
+- **Prompt Security Fuzz** (https://github.com/prompt-security/ps-fuzz)
 - **Promptfoo**: Tool precisely tailored for direct prompt injection testing and adversarial prompt crafting.
   - **URL**: [https://promptfoo.dev](https://promptfoo.dev)
 
@@ -173,8 +176,8 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
 - **Title**: Guide to Prompt Injection
   - **Author**: Lakera
   - **Link**: [Lakera](https://www.lakera.ai/blog/guide-to-prompt-injection)
-- **Title**: 
-  - **Author**: PromptSecurity
-  - **Link**: [PromptSecurity](https://www.prompt.security/vulnerabilities/prompt-injection)
+- **Title**: Learn Prompting
+  - **Author**: Prompt Injection
+  - **Link**: [PromptSecurity](https://learnprompting.org/docs/prompt_hacking/injection)
 
 
