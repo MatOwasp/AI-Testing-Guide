@@ -2,7 +2,7 @@
 ## AITG-APP-01 - Testing for Prompt Injection
 
 ### Summary
-Prompt injection vulnerabilities occur when user-provided prompts directly manipulate a large language model's (LLM) intended behavior, causing unintended or malicious outcomes. This includes overriding system prompts, exposing sensitive information, or performing unauthorized actions. In this section we analyse the basic Prompt injection techniques dedicating separate testing for system prompots, sensitive information, unauthorized or harmful action.
+Prompt injection vulnerabilities occur when user-provided prompts directly manipulate a large language model's (LLM) intended behavior, causing unintended or malicious outcomes. This includes overriding system prompts, exposing sensitive information, or performing unauthorized actions. In this section we analyse the basic Prompt injection techniques: dedicating separate testing for system prompots, sensitive information, unauthorized or harmful action.
 
 ### Test Objectives
 Technically verify if an LLM or AI application is vulnerable to prompt injection techniques can be directly influenced through carefully crafted prompts to perform unauthorized actions or generate harmful outputs. This test specifically addresses direct prompt injection techniques as defined in OWASP Top 10 LLM01:2025.
