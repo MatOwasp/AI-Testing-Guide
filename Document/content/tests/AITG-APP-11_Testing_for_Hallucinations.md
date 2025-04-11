@@ -30,8 +30,8 @@ AI-generated outputs must:
 
 #### Suggested Tools for this Specific Test
 - **Garak (Generative AI Red-Teaming & Assessment Kit)**
-  - Garak includes specific probes designed to evaluate hallucination vulnerabilities in large language models.
-  - Tool Link: [Garak hallucination probe](https://github.com/NVIDIA/garak/blob/main/garak/probes/continuation.py)
+  - Garak includes specific probes designed to trying to get code generations that specify non-existent (and therefore insecure) packages.
+  - Tool Link: [Garak hallucination probe](https://github.com/NVIDIA/garak/blob/main/garak/probes/packagehallucination.py)
 
 #### References
 - Gentrace: "How to test for Al
