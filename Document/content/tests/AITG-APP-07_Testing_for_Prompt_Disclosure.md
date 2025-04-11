@@ -50,11 +50,15 @@ A vulnerability is confirmed if the AI model:
 - Train AI models specifically to recognize and resist attempts to disclose system prompts.
 - Regularly audit model responses to promptly detect and rectify prompt disclosure issues.
 
+esearch efforts have led to the development of frameworks that can be utilized for this purpose:​
+
+**Agentic Prompt Leakage Framework**: This approach employs cooperative agents to probe and exploit LLMs, aiming to elicit system prompts. The methodology is detailed in the paper ["Automating Prompt Leakage Attacks on Large Language Models Using Agentic Approach"](https://arxiv.org/pdf/2502.12630)
+
+**PromptKeeper**: Designed to detect and mitigate prompt leakage, [PromptKeeper](https://arxiv.org/pdf/2412.13426) uses hypothesis testing to identify both explicit and subtle leakages. It regenerates responses using a dummy prompt to prevent the exposure of sensitive information .​
+
 ### Suggested Tools for this Specific Test
-- **Garak – Prompt Leakage Probe**: Module specifically designed to detect inadvertent disclosure of internal prompts.
-  - **URL**: [Garak System Prompt Leakage Probe](https://github.com/leondz/garak/blob/main/garak/probes/system_prompt_leakage.py)
-- **Promptfoo**: Specialized tool for testing prompt injection and leakage vulnerabilities.
-  - **URL**: [Promptfoo](https://promptfoo.dev)
+- **Garak – VERIFY what probe
+
 
 ### References
 - **Title**: OWASP Top 10 LLM07:2025 System Prompt Leakage
