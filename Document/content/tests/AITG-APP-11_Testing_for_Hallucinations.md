@@ -35,7 +35,7 @@ AI-generated outputs must:
 
 #### References
 - Gentrace: "How to test for Al
-hallucination [Link]("https://gentrace.ai/blog/how-to-test-for-ai-hallucination)
+hallucination [Link](https://gentrace.ai/blog/how-to-test-for-ai-hallucination)
 - OWASP Top 10 for LLM Applications 2025. "LLM09:2025 Misinformation." OWASP, 2025. [Link](https://genai.owasp.org)
 - Network Intelligence Pvt. Ltd. "Hallucination Detection in AI Systems." Deepseek AI Security Assessment Report, 2025.
 
