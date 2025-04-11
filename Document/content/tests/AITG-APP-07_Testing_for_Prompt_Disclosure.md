@@ -51,7 +51,10 @@ A vulnerability is confirmed if the AI model:
 - Regularly audit model responses to promptly detect and rectify prompt disclosure issues.
 
 ### Suggested Tools for this Specific Test
-
+- **Garak – Prompt Leakage Probe**: Module specifically designed to detect inadvertent disclosure of internal prompts.
+  - **URL**: [Garak System Prompt Leakage Probe](https://github.com/leondz/garak/blob/main/garak/probes/system_prompt_leakage.py)
+- **Promptfoo**: Specialized tool for testing prompt injection and leakage vulnerabilities.
+  - **URL**: [Promptfoo](https://promptfoo.dev)
 
 ### References
 - **Title**: OWASP Top 10 LLM07:2025 System Prompt Leakage
@@ -59,6 +62,4 @@ A vulnerability is confirmed if the AI model:
   - **Link**: [https://genai.owasp.org](https://genai.owasp.org)
 - **Title**: Prompt Leakage in Large Language Models
   - **Author**: Benjamin Schiller, et al.
-  - **URL**: [https://arxiv.org/abs/2312.02876](https://arxiv.org/abs/2312.02876)
-
-
+  - **URL**: 
