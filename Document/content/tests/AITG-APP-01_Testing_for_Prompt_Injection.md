@@ -185,6 +185,7 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
 - **Title**: Learn Prompting
   - **Author**: Prompt Injection
   - **Link**: [PromptSecurity](https://learnprompting.org/docs/prompt_hacking/injection)
+
 -  Obfuscation, Encoding, and Capitalization Techniques
 Exploiting Large Language Models via Prompt Injection
 https://embracethered.com/blog/posts/2023/chatgpt-cross-plugin-request-forgery-and-prompt-injection
@@ -195,6 +196,7 @@ https://kai-greshake.de/posts/inject-my-pdf
 - Encoding Techniques (Base64, URL Encoding, etc.)
 Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection
 https://arxiv.org/abs/2302.12173
+
 - Roleplay and Character Simulation
 Exploring GPT-3 Biases and Unsafe Outputs (Role-based Exploits)
 Abubakar Abid, Maheen Farooqi, James Zou
