@@ -22,6 +22,8 @@ The following is a diagrma that represents this kind of test:
   <img src="/Document/images/IndirectPromptInjection.png" alt="Description" width="800"/>
 </p>
 
+For this kind of test you need to craft a web page with the malicious payload that will be executed in the user prompt and observe if the AI system will execute your payload.
+
 ### Test/Payloads
 
 1. **HTML Injection in Web Content**
