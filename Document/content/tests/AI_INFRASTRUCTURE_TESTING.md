@@ -1,39 +1,32 @@
 
-### Introduction to AI Infrastructure Testing
+## 3.3 🟩 AI Infrastructure Testing
 
-The **AI Infrastructure Testing** category of the AI Architecture Model addresses the security and reliability of the **supporting components** that enable the AI system to function—such as APIs, model gateways, vector databases, compute environments, deployment pipelines, and orchestration agents.
+The **AI Infrastructure Testing** category targets vulnerabilities and risks within the technical infrastructure and components that support AI model deployment and operation. This category specifically examines infrastructure-level security, including model supply chains, resource management, boundary controls, plugins, fine-tuning environments, and mechanisms preventing unauthorized model access or misuse.
 
-While models receive much of the focus in AI risk discussions, vulnerabilities in the infrastructure layer can be just as damaging. Attackers may exploit **insecure endpoints, permission misconfigurations, logging leaks, or exposed APIs** to gain access to models, data, or prompt injection surfaces. Additionally, agent-based systems and retrieval-augmented architectures introduce new **runtime risks** that do not exist in traditional software stacks.
-
-Infrastructure testing ensures that AI systems are **secure by design** and **resilient by default**, particularly in production environments where interconnected services amplify the attack surface.
-
----
+Infrastructure-level vulnerabilities may lead to critical issues such as unauthorized access, resource exhaustion, or tampering of the model or associated components. Comprehensive infrastructure testing ensures these systems are securely configured, resilient against misuse or exploitation, and capable of safeguarding the AI systems they support.
 
 ### Scope of This Testing Category
 
 This category evaluates whether the AI infrastructure:
 
-- Protects against **unauthorized access** to the model, system prompts, or inference APIs  
-  → *AITG-INF-01: Testing for Inference API Exposure*  
-  → *AITG-INF-02: Testing for System Prompt Disclosure*
+- Prevents **supply chain tampering and unauthorized modifications**  
+  → [AITG-INF-01: Testing for Supply Chain Tampering](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-INF-01_Testing_for_Supply_Chain_Tampering.md)
 
-- Is hardened against **injection or exfiltration via middleware layers**, such as vector stores, plugins, or prompt chaining  
-  → *AITG-INF-03: Testing for Vector Store Exploitation*  
-  → *AITG-INF-04: Testing for Plugin Abuse*
+- Is resilient against **resource exhaustion and denial-of-service conditions**  
+  → [AITG-INF-02: Testing for Resource Exhaustion](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-INF-02_Testing_for_Resource_Exhaustion.md)
 
-- Does not leak sensitive **runtime data, chat history, or session metadata**  
-  → *AITG-INF-05: Testing for Chat Exfiltration Channels*  
-  → *AITG-INF-06: Testing for Token/Session Leakage*
+- Maintains secure **boundaries and access controls for plugin-based interactions**  
+  → [AITG-INF-03: Testing for Plugin Boundary Violations](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-INF-03_Testing_for_Plugin_Boundary_Violations.md)
 
-- Enforces **least privilege and permission boundaries** across agents, APIs, and chained systems  
-  → *AITG-INF-07: Testing for Agent Permission Escalation*
+- Enforces strict controls against **misuse of model capabilities and functions**  
+  → [AITG-INF-04: Testing for Capability Misuse](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-INF-04_Testing_for_Capability_Misuse.md)
 
-- Is protected against **Denial-of-Service (DoS) and resource consumption** exploits specific to LLM-backed systems  
-  → *AITG-INF-08: Testing for Model DoS via Input Size or Encoding Attacks*
+- Safeguards environments used for **model fine-tuning against poisoning and corruption**  
+  → [AITG-INF-05: Testing for Fine-tuning Poisoning](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-INF-05_Testing_for_Fine-tuning_Poisoning.md)
 
-- Is regularly monitored for **misconfiguration, version disclosure, and supply chain vulnerabilities**  
-  → *AITG-INF-09: Testing for Infrastructure Misconfiguration*  
-  → *AITG-INF-10: Testing for Dependency and Runtime Supply Chain Risks*
+- Prevents **theft or leakage of models during the development phase**  
+  → [AITG-INF-06: Testing for Dev-Time Model Theft](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-INF-06_Testing_for_Dev-Time_Model_Theft.md)
 
-By rigorously testing the AI infrastructure, organizations can **prevent lateral movement**, **reduce attack surface**, and **build operational resilience** for AI systems deployed at scale.
+Each test within the AI Infrastructure Testing category contributes to the foundational security posture required for AI systems, ensuring reliable, secure, and robust infrastructure capable of preventing and mitigating threats throughout the model's lifecycle.
 
+---
