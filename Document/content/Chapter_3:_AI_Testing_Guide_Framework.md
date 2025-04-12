@@ -73,5 +73,5 @@ Each test case is categorized under one of four pillars:
 
 
 NEXT:
-3. [AI Application Testing](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AI_APPLICATION_TESTING.md)
+3.1 [AI Application Testing](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AI_APPLICATION_TESTING.md)
 [Table of Content](README.md)
