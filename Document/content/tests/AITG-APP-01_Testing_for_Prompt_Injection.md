@@ -10,6 +10,11 @@ A prompt injection includes (see. Lakera refence):
 - Malicious intent. The instructions must conflict with the AI’s original system constraints. This is what makes it an attack.
 The way these elements interact determines whether an attack succeeds or fails—and why traditional filtering methods struggle to keep up.
 
+<p align="center">
+  <img src="/Document/images/PromptInjection.png" alt="Description" width="1200"/>
+</p>
+
+
 ### Test Objectives
 Technically verify if an LLM or AI application is vulnerable to prompt injection techniques can be directly influenced through carefully crafted prompts to perform unauthorized actions or generate harmful outputs. This test specifically addresses direct prompt injection techniques as defined in OWASP Top 10 LLM01:2025.
 
@@ -166,6 +171,7 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
 - Clearly differentiate and isolate user prompts from system instructions within the model.
 - Utilize specialized content filters and moderation systems explicitly engineered to detect and mitigate direct prompt injection payloads.
 - Restrict LLM privileges by design, mandating human approval for sensitive or critical operations.
+- Defeating Prompt Injections by Design. [CaMeL](https://arxiv.org/pdf/2503.18813)
 
 ### Suggested Tools for this Specific Test
 - **Garak – Prompt Injection Probe**: Specifically designed module within Garak for detecting prompt injection vulnerabilities.
