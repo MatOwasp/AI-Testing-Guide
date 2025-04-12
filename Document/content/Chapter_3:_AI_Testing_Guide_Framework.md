@@ -40,11 +40,10 @@ Each test case is categorized under one of four pillars:
 | AITG-MOD-01 | [Testing for Evasion Attacks](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-01_Testing_for_Evasion_Attacks.md) | OWASP AI Exchange       | Security |
 | AITG-MOD-02 | [Testing for Runtime Model Poisoning](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-02_Testing_for_Runtime_Model_Poisoning.md) | OWASP Top 10 LLM 2025   | Security |
 | AITG-MOD-03 | [Testing for Poisoned Training Sets](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-03_Testing_for_Poisoned_Training_Sets.md) | OWASP Top 10 LLM 2025   | Security |
-| AITG-MOD-04 | [Testing for Fine-tuning Poisoning](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-04_Testing_for_Fine-tuning_Poisoning.md) | OWASP Top 10 LLM 2025   | Security |
-| AITG-MOD-05 | [Testing for Membership Inference](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-05_Testing_for_Membership_Inference.md) | OWASP AI Exchange       | Privacy |
-| AITG-MOD-06 | [Testing for Inversion Attacks](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-06_Testing_for_Inversion_Attacks.md) | OWASP AI Exchange       | Privacy |
-| AITG-MOD-07 | [Testing for Robustness to New Data](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-07_Testing_for_Robustness_to_New_Data.md) | Trustworthy AI          | Trustworthy AI |
-| AITG-MOD-08 | [Testing for Goal Alignment](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-08_Testing_for_Goal_Alignment.md) | Trustworthy AI          | Trustworthy AI |
+| AITG-MOD-04 | [Testing for Membership Inference](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-04_Testing_for_Membership_Inference.md) | OWASP AI Exchange       | Privacy |
+| AITG-MOD-05 | [Testing for Inversion Attacks](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-05_Testing_for_Inversion_Attacks.md) | OWASP AI Exchange       | Privacy |
+| AITG-MOD-06 | [Testing for Robustness to New Data](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-06_Testing_for_Robustness_to_New_Data.md) | Trustworthy AI          | Trustworthy AI |
+| AITG-MOD-07 | [Testing for Goal Alignment](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-07_Testing_for_Goal_Alignment.md) | Trustworthy AI          | Trustworthy AI |
 
 ## 🟩 AI Infrastructure Testing
 
