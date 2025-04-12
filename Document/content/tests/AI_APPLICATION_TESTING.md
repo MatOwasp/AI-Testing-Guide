@@ -5,7 +5,7 @@ The **AI Application Testing** category addresses security, safety, and trust ri
 
 Given the direct exposure of AI applications to users and external environments, testing at this layer is critical to prevent unauthorized access, manipulation of AI behavior, and compliance violations. The category covers comprehensive evaluation against well-defined threat scenarios, including adversarial prompt manipulation, unsafe outputs, agentic misbehavior, and risks related to model extraction or embedding manipulation.
 
-### 🔍 Scope of This Testing Category
+### Scope of This Testing Category
 
 This category evaluates whether the AI application:
 
