@@ -1,5 +1,5 @@
 
-## 3.2 🟪 [AI Model Testing](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AI_MODEL_TESTING.md)
+## 3.2 🟪 AI Model Testing
 
 The **AI Model Testing** category addresses vulnerabilities and robustness of the AI model itself, independently from its deployment context. This category specifically targets intrinsic properties and behaviors of AI models, ensuring they perform reliably under adversarial conditions, do not leak sensitive information, and remain aligned with their intended goals.
 
