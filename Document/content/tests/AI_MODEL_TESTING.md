@@ -1,5 +1,5 @@
 
-### 🟦 Introduction to AI Model Testing
+### Introduction to AI Model Testing
 
 The **AI Model Testing** category of the AI Architecture Model focuses on validating the intrinsic properties and behaviors of the model itself—independent of its deployment context or external interactions. This layer of testing targets the **core robustness, reliability, and alignment** of the trained AI model, ensuring it performs safely and consistently even when exposed to adversarial scenarios or unexpected inputs.
 
