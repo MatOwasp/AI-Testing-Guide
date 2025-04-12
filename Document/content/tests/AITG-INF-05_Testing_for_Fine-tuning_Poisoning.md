@@ -1,5 +1,5 @@
 
-### AITG-INf-05 - Testing for Fine-tuning Poisoning
+### AITG-INF-05 - Testing for Fine-tuning Poisoning
 
 #### Summary  
 This test identifies vulnerabilities arising from poisoning during fine-tuning, a targeted manipulation of datasets or parameters during the fine-tuning process of pre-trained AI models. Attackers exploit fine-tuning to introduce subtle biases, persistent backdoors, or harmful behaviors, significantly compromising model trust, security, and compliance.
