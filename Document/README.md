@@ -2,17 +2,17 @@
 
 # AI Testing Guide Table of Contents
 
-## 1. [Introduction](content/1.Introduction.md)
+## 1. [Introduction](content/Chapter_1:_Introduction.md)
 
 - 1.1 [Objectives](content/1.2Objectives.md)
 
-## 2. [AI System Threat Modeling](content/2.AI-TM.md)
+## 2. [AI System Threat Modeling](Chapter_2:_Threat_Modeling_for_AI_Systems.md)
 
 - 2.1 [Identify AI System Security threats](content/2.1IdentifyAIThreats.md)
 
-- 2.2 [Identify AI System Trustworthy threats](content/RAI-TM.md)
+- 2.2 [Identify AI System Trustworthy threats](content/2.2_Identify_AI_System_RAI_and_Trustworthy_threats.md)
 
-## 3. [AI Testing Guide Framework](content/3.AITG-Framework.md)
+## 3. [AI Testing Guide Framework](content/Chapter_3:_AI_Testing_Guide_Framework.md)
 
 3.1 🟦 [AI Application Testing](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AI_APPLICATION_TESTING.md)
 
