@@ -1,34 +1,32 @@
 
-### Introduction to AI Model Testing
+## 3.2 🟪 [AI Model Testing](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AI_MODEL_TESTING.md)
 
-The **AI Model Testing** category of the AI Architecture Model focuses on validating the intrinsic properties and behaviors of the model itself—independent of its deployment context or external interactions. This layer of testing targets the **core robustness, reliability, and alignment** of the trained AI model, ensuring it performs safely and consistently even when exposed to adversarial scenarios or unexpected inputs.
+The **AI Model Testing** category addresses vulnerabilities and robustness of the AI model itself, independently from its deployment context. This category specifically targets intrinsic properties and behaviors of AI models, ensuring they perform reliably under adversarial conditions, do not leak sensitive information, and remain aligned with their intended goals.
 
-AI models are probabilistic and high-dimensional, which means even small perturbations in input or training data can produce disproportionate or unintended outputs. As a result, **model-level vulnerabilities**—such as susceptibility to evasion, poisoning, or inversion attacks—must be systematically identified and mitigated to prevent catastrophic misuse, information leakage, or performance degradation.
-
----
+Testing at the model level helps detect fundamental weaknesses such as susceptibility to evasion attacks, data poisoning, privacy leaks, and misalignment issues, which could otherwise propagate to all deployments of that model. Comprehensive model testing is essential to maintaining the integrity, security, and trustworthiness of AI systems.
 
 ### Scope of This Testing Category
 
-This category evaluates whether the model:
+This category evaluates whether the AI model:
 
-- Is resilient to **adversarial perturbations or evasion attacks**, ensuring output integrity even with manipulated inputs  
-  → *AITG-MOD-01: Testing for Adversarial Robustness*
+- Is robust and resilient against **adversarial evasion attacks**  
+  → [AITG-MOD-01: Testing for Evasion Attacks](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-01_Testing_for_Evasion_Attacks.md)
 
-- Is robust against **training-time threats**, such as data poisoning or backdoor insertion, that could compromise model reliability or safety  
-  → *AITG-MOD-02: Testing for Data Poisoning*  
-  → *AITG-MOD-03: Testing for Backdoor Behavior*
+- Protects effectively against **runtime model poisoning**  
+  → [AITG-MOD-02: Testing for Runtime Model Poisoning](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-02_Testing_for_Runtime_Model_Poisoning.md)
 
-- Does not unintentionally **memorize and regurgitate sensitive training data**  
-  → *AITG-MOD-04: Testing for Training Data Memorization*  
-  → *AITG-MOD-05: Testing for Membership Inference*  
-  → *AITG-MOD-06: Testing for Model Inversion*
+- Is resistant to **training-time poisoning attacks**  
+  → [AITG-MOD-03: Testing for Poisoned Training Sets](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-03_Testing_for_Poisoned_Training_Sets.md)  
+  → [AITG-MOD-04: Testing for Fine-tuning Poisoning](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-04_Testing_for_Fine-tuning_Poisoning.md)
 
-- Cannot be **replicated or extracted** by attackers using public-facing APIs  
-  → *AITG-MOD-07: Testing for Model Extraction*
+- Preserves **data privacy** against inference and inversion attacks  
+  → [AITG-MOD-05: Testing for Membership Inference](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-05_Testing_for_Membership_Inference.md)  
+  → [AITG-MOD-06: Testing for Inversion Attacks](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-06_Testing_for_Inversion_Attacks.md)
 
-- Exhibits **predictable, explainable behavior** across input distributions, including edge cases and OOD samples  
-  → *AITG-MOD-08: Testing for Out-of-Distribution Generalization*  
-  → *AITG-MOD-09: Testing for Explainability Failures*
+- Maintains **robustness when presented with new or adversarial data**  
+  → [AITG-MOD-07: Testing for Robustness to New Data](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-07_Testing_for_Robustness_to_New_Data.md)
 
-Model testing ensures the **technical trustworthiness** of AI systems, addressing low-level model vulnerabilities that traditional software security testing may miss. These evaluations are essential for certifying AI readiness in regulated, high-stakes, or safety-critical environments.
+- Remains consistently **aligned with predefined goals and constraints**  
+  → [AITG-MOD-08: Testing for Goal Alignment](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-08_Testing_for_Goal_Alignment.md)
 
+Each test within the AI Model Testing category helps ensure the fundamental resilience, reliability, and safety of AI models, reducing systemic risk across all deployments and applications.
