@@ -17,16 +17,16 @@ This category evaluates whether the AI model:
 
 - Is resistant to **training-time poisoning attacks**  
   → [AITG-MOD-03: Testing for Poisoned Training Sets](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-03_Testing_for_Poisoned_Training_Sets.md)  
-  → [AITG-MOD-04: Testing for Fine-tuning Poisoning](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-04_Testing_for_Fine-tuning_Poisoning.md)
+
 
 - Preserves **data privacy** against inference and inversion attacks  
-  → [AITG-MOD-05: Testing for Membership Inference](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-05_Testing_for_Membership_Inference.md)  
-  → [AITG-MOD-06: Testing for Inversion Attacks](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-06_Testing_for_Inversion_Attacks.md)
+  → [AITG-MOD-04: Testing for Membership Inference](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-04_Testing_for_Membership_Inference.md)  
+  → [AITG-MOD-05: Testing for Inversion Attacks](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-05_Testing_for_Inversion_Attacks.md)
 
 - Maintains **robustness when presented with new or adversarial data**  
-  → [AITG-MOD-07: Testing for Robustness to New Data](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-07_Testing_for_Robustness_to_New_Data.md)
+  → [AITG-MOD-06: Testing for Robustness to New Data](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-06_Testing_for_Robustness_to_New_Data.md)
 
 - Remains consistently **aligned with predefined goals and constraints**  
-  → [AITG-MOD-08: Testing for Goal Alignment](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-08_Testing_for_Goal_Alignment.md)
+  → [AITG-MOD-07: Testing for Goal Alignment](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-MOD-07_Testing_for_Goal_Alignment.md)
 
 Each test within the AI Model Testing category helps ensure the fundamental resilience, reliability, and safety of AI models, reducing systemic risk across all deployments and applications.
