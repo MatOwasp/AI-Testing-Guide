@@ -1,15 +1,38 @@
-### 🟦 Introduction to AI Application Testing
 
-The **AI Application Testing** category of the AI Architecture Model focuses on identifying and mitigating security and trust-related risks that directly emerge from how an AI system interacts with end-users and external data sources. This includes how inputs are processed, how outputs are generated, and how malicious actors may attempt to exploit these interactions.
+## 3.1 🟦 AI Application Testing
+
+The **AI Application Testing** category addresses security, safety, and trust risks arising specifically from interactions between AI systems, end-users, and external data sources. This testing category evaluates the behavior of AI applications when processing user inputs, generating outputs, and handling runtime interactions, with the goal of uncovering and mitigating vulnerabilities unique to AI-driven interactions, such as prompt injections, sensitive data leaks, and unsafe or biased outputs.
+
+Given the direct exposure of AI applications to users and external environments, testing at this layer is critical to prevent unauthorized access, manipulation of AI behavior, and compliance violations. The category covers comprehensive evaluation against well-defined threat scenarios, including adversarial prompt manipulation, unsafe outputs, agentic misbehavior, and risks related to model extraction or embedding manipulation.
 
 ### 🔍 Scope of This Testing Category
 
-This category evaluates whether the model:
+This category evaluates whether the AI application:
 
-- Adheres to input and output constraints even under adversarial manipulation (e.g., AITG-APP-01 to AITG-APP-06)
-- Maintains information boundaries and avoids disclosing or leaking sensitive content (e.g., AITG-APP-03, AITG-APP-07)
-- Responds accurately, without hallucinations or bias, in sensitive domains (e.g., AITG-APP-10 to AITG-APP-12)
-- Supports safe and transparent decision-making by ensuring explainability, traceability, and proper attribution of sources (AITG-APP-14)
-- Resists over-personification or agentic overreach (AITG-APP-06, AITG-APP-13)
+- Is resistant to **prompt manipulation and injection attacks**  
+  → [AITG-APP-01: Testing for Prompt Injection](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-01_Testing_for_Prompt_Injection.md)  
+  → [AITG-APP-02: Testing for Indirect Prompt Injection](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-02_Testing_for_Indirect_Prompt_Injection.md)
 
-Each test in this category contributes to a **holistic security posture** for generative AI systems, encompassing safety, robustness, ethics, and compliance.
+- Maintains **information boundaries** to avoid sensitive data leaks  
+  → [AITG-APP-03: Testing for Sensitive Data Leak](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-03_Testing_for_Sensitive_Data_Leak.md)  
+  → [AITG-APP-04: Testing for Input Leakage](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-04_Testing_for_Input_Leakage.md)  
+  → [AITG-APP-07: Testing for Prompt Disclosure](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-07_Testing_for_Prompt_Disclosure.md)
+
+- Generates **safe, unbiased, and properly aligned outputs**  
+  → [AITG-APP-05: Testing for Unsafe Outputs](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-05_Testing_for_Unsafe_Outputs.md)  
+  → [AITG-APP-10: Testing for Harmful Content Bias](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-10_Testing_for_Harmful_Content_Bias.md)  
+  → [AITG-APP-11: Testing for Hallucinations](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-11_Testing_for_Hallucinations.md)  
+  → [AITG-APP-12: Testing for Toxic Output](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-12_Testing_for_Toxic_Output.md)
+
+- Manages **agentic behavior and operational limits** effectively  
+  → [AITG-APP-06: Testing for Agentic Behavior Limits](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-06_Testing_for_Agentic_Behavior_Limits.md)  
+  → [AITG-APP-13: Testing for Over-Reliance on AI](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-13_Testing_for_Over-Reliance_on_AI.md)
+
+- Provides **explainability and interpretability** for AI decisions  
+  → [AITG-APP-14: Testing for Explainability and Interpretability](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-14_Testing_for_Explainability_and_Interpretability.md)
+
+- Is protected against **embedding-based attacks and model extraction attempts**  
+  → [AITG-APP-08: Testing for Embedding Manipulation](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-08_Testing_for_Embedding_Manipulation.md)  
+  → [AITG-APP-09: Testing for Model Extraction](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-09_Testing_for_Model_Extraction.md)
+
+Each test within the AI Application Testing category contributes to the holistic security posture of AI systems by systematically addressing application-level risks, ensuring robust operation in real-world environments, and helping organizations comply with ethical standards and regulations.
