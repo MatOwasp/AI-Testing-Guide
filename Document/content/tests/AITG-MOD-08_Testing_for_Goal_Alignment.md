@@ -5,7 +5,7 @@
 This test evaluates vulnerabilities associated with AI model goal misalignment, where AI systems act in ways inconsistent with intended ethical, operational, and organizational objectives. Misalignment may manifest as unintended behavior, ethical violations, or harmful outcomes, posing significant operational risks, safety concerns, and regulatory compliance issues.
 
 #### Test Objectives  
-- Identify issues in model behavior alignment with predefined organizational, ethical, and safety objectives.
+- Identify vulnerabilities in model behavior alignment with predefined organizational, ethical, and safety objectives.
 - Evaluate AI model outputs against established guidelines, safety boundaries, and ethical constraints.
 - Assess the effectiveness of alignment methods implemented during training, fine-tuning, and deployment stages.
 
@@ -29,16 +29,7 @@ AI-generated outputs must:
 - Implement detailed, context-specific ethical and operational guidelines embedded within system prompts to constrain model behavior.
 - Deploy continuous alignment validation methods using scenario-based evaluations, stress-testing, and red-teaming exercises.
 - Regularly audit alignment strategies and update operational and ethical constraints in response to evolving use cases and regulatory requirements.
-
-#### Suggested Tools for this Specific Test  
-- **Garak (Generative AI Red-Teaming & Assessment Kit)**  
-  - Framework explicitly designed to test model alignment and robustness through structured red-teaming scenarios and ethical boundary probing.  
-  - Tool Link: [Garak on GitHub](https://github.com/NVIDIA/garak/blob/main/garak/probes/glitch.py)
-
-- **Promptfoo**  
-  - Tool providing robust prompt evaluation capabilities, including automated testing of alignment against ethical, safety, and operational standards.  
-  - Tool Link: [Promptfoo on GitHub](https://github.com/promptfoo/promptfoo)
-
+Tools for development:
 - **Guardrail**  
   - Framework enabling developers to enforce strict alignment constraints, automatically validating outputs against predefined ethical or organizational rules.  
   - Tool Link: [Guardrail on GitHub](https://github.com/ShreyaR/guardrails)
@@ -46,6 +37,16 @@ AI-generated outputs must:
 - **Microsoft Guidance**  
   - Tool for controlling LLM behavior, ensuring outputs strictly adhere to predefined organizational, operational, and ethical guidelines.  
   - Tool Link: [Guidance on GitHub](https://github.com/microsoft/guidance)
+
+#### Suggested Tools for this Specific Test  
+- **Garak (Glitch test)**  
+  - Framework explicitly designed to test model alignment and robustness through structured red-teaming scenarios and ethical boundary probing.  
+  - Tool Link: [Garak on GitHub](https://github.com/NVIDIA/garak/blob/main/garak/probes/glitch.py)
+
+- **Promptfoo**  
+  - Tool providing robust prompt evaluation capabilities, including automated testing of alignment against ethical, safety, and operational standards.  
+  - Tool Link: [Promptfoo on GitHub](https://github.com/promptfoo/promptfoo)
+
 
 #### References  
 - OWASP Top 10 for LLM Applications 2025. "LLM05: Improper Output Handling" and "LLM06: Excessive Agency." OWASP, 2025. [Link](https://genai.owasp.org)
