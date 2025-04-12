@@ -6,7 +6,7 @@
 
 - 1.1 [Objectives](content/1.2Objectives.md)
 
-## 2. [AI System Threat Modeling](Chapter_2:_Threat_Modeling_for_AI_Systems.md)
+## 2. [Threat Modeling for AI Systems](content/Chapter_2:_Threat_Modeling_for_AI_Systems.md)
 
 - 2.1 [Identify AI System Security threats](content/2.1IdentifyAIThreats.md)
 
