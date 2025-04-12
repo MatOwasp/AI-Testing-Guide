@@ -20,7 +20,7 @@ tags: AITG
 
 ## 3. [AI Testing Guide Framework](content/3.AITG-Framework.md)
 
-3.1 🟦 [AI Application Testing](./tests/AI_APPLICATION_TESTING.md)
+3.1 🟦 [AI Application Testing](./Document/tests/AI_APPLICATION_TESTING.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
@@ -40,7 +40,7 @@ tags: AITG
 | AITG-APP-14   | [Testing for Explainability and Interpretability](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-APP-14_Testing_for_Explainability_and_Interpretability.md) |
 
 
-3.2 🟪 [AI Model Testing](./tests/AI_MODEL_TESTING.md)
+3.2 🟪 [AI Model Testing](./Document/tests/AI_MODEL_TESTING.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
@@ -55,7 +55,7 @@ tags: AITG
 
 ---
 
-3.3 🟩 [AI Infrastructure Testing](./tests/AI_INFRASTRUCTURE_TESTING.md)
+3.3 🟩 [AI Infrastructure Testing](./Document/tests/AI_INFRASTRUCTURE_TESTING.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
@@ -68,7 +68,7 @@ tags: AITG
 
 ---
 
-3.4 🟨 [AI Data Testing](./tests/AI_DATA_TESTING.md)
+3.4 🟨 [AI Data Testing](./Document/tests/AI_DATA_TESTING.md)
 
 | Test ID       | Test Name & Link |
 |---------------|------------------|
