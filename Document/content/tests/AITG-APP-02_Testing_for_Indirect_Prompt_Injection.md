@@ -16,6 +16,12 @@ Vulenrabiltiy: The AI follows the hidden instruction unknowingly, bypassing ethi
 ### Test Objectives
 Technically verify whether an LLM or AI application can be indirectly manipulated by malicious payloads embedded within external content, leading to unauthorized actions or unintended harmful outcomes. This test specifically addresses indirect prompt injection techniques as detailed in OWASP Top 10 LLM01:2025.
 
+The following is a diagrma that represents this kind of test:
+
+<p align="center">
+  <img src="/Document/images/IndirectPromptInjection.png" alt="Description" width="800"/>
+</p>
+
 ### Test/Payloads
 
 1. **HTML Injection in Web Content**
