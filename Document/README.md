@@ -1,22 +1,16 @@
----
 
-layout: col-document
-title: AITG 
-tags: AITG
-
----
 
 # AI Testing Guide Table of Contents
 
 ## 1. [Introduction](content/1.Introduction.md)
 
-1.1 [Objectives](content/1.2Objectives.md)
+- 1.1 [Objectives](content/1.2Objectives.md)
 
 ## 2. [AI System Threat Modeling](content/2.AI-TM.md)
 
-2.1 [Identify AI System Security threats](content/2.1IdentifyAIThreats.md)
+- 2.1 [Identify AI System Security threats](content/2.1IdentifyAIThreats.md)
 
-2.2 [Identify AI System Trustworthy threats](content/RAI-TM.md)
+- 2.2 [Identify AI System Trustworthy threats](content/RAI-TM.md)
 
 ## 3. [AI Testing Guide Framework](content/3.AITG-Framework.md)
 
@@ -78,8 +72,7 @@ tags: AITG
 | AITG-DAT-04   | [Testing for Harmful Content in Data](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-DAT-04_Testing_for_Harmful_Content_in_Data.md) |
 | AITG-DAT-05   | [Testing for Data Minimization & Consent](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/tests/AITG-DAT-05_Testing_for_Data_Minimization_and_Consent.md) |
 
-
-
+## 4. [Chapter 4: Domain Specific Testing](https://github.com/MatOwasp/AI-Testing-Guide/blob/main/Document/content/Chapter_4:_Domain_Specific_Testing.md)
 
 
 
