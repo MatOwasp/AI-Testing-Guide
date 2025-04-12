@@ -1,4 +1,4 @@
-# 2.2  Identify AI System Trustworthy threats
+# 2.2  Identify AI System RAI and Trustworthy threats
 
 ## Expanding Threat Modeling Beyond Security
 
