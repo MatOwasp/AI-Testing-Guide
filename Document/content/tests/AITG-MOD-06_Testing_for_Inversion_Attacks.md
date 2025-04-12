@@ -1,5 +1,5 @@
 
-### AITG-MOD-06 – Testing for Inversion Attacks
+### AITG-MOD-06 – Testing for Inversion Threats
 
 #### Summary  
 This test identifies vulnerabilities associated with model inversion attacks, where adversaries reconstruct sensitive training data or attributes from model outputs. Model inversion exploits the outputs, confidence scores, gradients, or intermediate layers of a model, potentially compromising personal, financial, or medical information, and violating data privacy regulations.
@@ -48,6 +48,6 @@ AI-generated outputs must:
   - Tool Link: [PrivacyRaven on GitHub](https://github.com/trailofbits/PrivacyRaven)
 
 #### References  
-- OWASP Top 10 for LLM Applications 2025. "LLM02: Sensitive Information Disclosure." OWASP, 2025. [Link](https://genai.owasp.org)
+- OWASP Top 10 for LLM Applications 2025. "LLM02: Sensitive Information Disclosure." OWASP, 2025. [Link](https://genai.owasp.org/llmrisk/llm022025-sensitive-information-disclosure/)
 - NIST AI 100-2e2025, "Adversarial Machine Learning: A Taxonomy and Terminology of Attacks and Mitigations," Section 2.4 "Privacy Attacks and Mitigations – Data Reconstruction." NIST, March 2025. [Link](https://doi.org/10.6028/NIST.AI.100-2e2025)
-- GenAI Red Teaming Guide, OWASP, January 23, 2025, "Risks Addressed by GenAI Red Teaming: Knowledge Risks – Model Inversion." [Link](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
+- GenAI Red Teaming Guide, OWASP, January 23, 2025, "Risks Addressed by GenAI Red Teaming: Knowledge Risks – Model Inversion." [Link]()
