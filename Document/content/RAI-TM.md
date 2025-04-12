@@ -159,7 +159,7 @@ The following tables provide a structured overview, facilitating clear visibilit
 
 ---
 
-## 📋 Updated Threat Table (Grouped by Testing Domain)
+# Updated Threat Table (Grouped by Testing Domain)
 
 The following is the updated version of the four domain-specific tables with test IDs.
 
