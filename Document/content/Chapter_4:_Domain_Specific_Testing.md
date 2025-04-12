@@ -1,6 +1,48 @@
 ## Chapter 4: Domain-Specific Testing
 
-The AI Testing Guide framework is structured around four core domains: Security, Privacy, Responsible AI (RAI), and Trustworthy AI. While the framework integrates these domains comprehensively, it is also possible—and often useful—to focus testing efforts on one specific domain. Below are individual mappings for each domain, enabling focused and targeted testing.
+The AI Testing Guide framework is structured around four core layers of a typical AI Architure:
+- Application Layer
+- Model Layer
+- Infrastructure Layer
+- Data Layer
+
+While the framework integrates these layers comprehensively, it is also possible-and often useful—to focus testing efforts on one specific domain such as Security, Privacy, RAI and Trustworthy AI (TAI). 
+
+It is useful to understand whaich test are related to Secuirty and PRivacy and which to RAI and TAI.
+
+We define the following three kind of Input for an AI System:
+
+<p align="center">
+  <img src="/Document/images/Prompt.png" alt="Description" width="800"/>
+</p>
+
+**1) Prompt (Intended Prompt)**  
+This is the standard, intended input given to the AI system by the designer or user without any malicious intent or attempt to manipulate the system. This type of input aligns with the intended functionality and expected behavior of the AI model.
+
+- **Example:** Asking the AI to summarize an article, answer a customer query, or generate text according to specified instructions.
+
+
+**2) Prompt Injection**  
+This type of input refers to scenarios where the user intentionally or unintentionally provides prompts designed to manipulate or override the intended behavior of the AI system, causing it to produce unintended, possibly harmful, or sensitive outputs. It can be divided into two categories:
+
+- **Direct Prompt Injection:** User directly inputs text commands explicitly intended to manipulate model behavior.
+- **Indirect Prompt Injection:** Malicious prompts embedded within externally sourced content (e.g., web pages, documents) which the model ingests unknowingly.
+
+- **Example:** Injecting instructions to bypass security constraints, reveal private system information, or disregard programmed ethical guidelines.
+
+
+**3) Prompt Attack**  
+Prompt attacks involve specific manipulative prompts designed to exploit inherent model vulnerabilities related to hallucinations (model inventing or confidently providing incorrect information) and Responsible AI (RAI) and Trustworthy considerations (ethical guidelines, fairness, transparency). This category explicitly deals with exploiting known weaknesses in the AI model’s accuracy or ethical controls.
+
+- **Hallucination Attack:** Crafting prompts designed to exploit the model's propensity for fabricating believable but incorrect responses.
+  - **Example:** Asking the AI for non-existent historical facts or scientific data, leading to plausible yet entirely fabricated responses.
+
+- **Responsible AI Attack (RAI Attack):** Prompts intentionally exploiting or subverting ethical and fairness-related constraints.
+  - **Example:** Manipulating the model to generate biased, toxic, or inappropriate outputs, contrary to established ethical standards.
+
+---
+
+Below are individual mappings for each domain, enabling focused and targeted testing.
 
 
 ## Security Domain Testing
