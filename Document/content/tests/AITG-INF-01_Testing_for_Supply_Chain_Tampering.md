@@ -55,6 +55,8 @@ The AI infrastructure should effectively:
 
 ### Suggested Tools for This Specific Test
 
+- **GaraK . PAckage Hallucionantion**
+  - **URL**: [https://github.com/NVIDIA/garak/blob/main/garak/probes/promptinject.py](https://github.com/NVIDIA/garak/blob/main/garak/probes/packagehallucination.py)
 - **Dependency-Check:** [OWASP Dependency Check](https://owasp.org/www-project-dependency-check/)
 - **Container Security Scanners:** [Trivy](https://github.com/aquasecurity/trivy), [Anchore](https://github.com/anchore/anchore-engine)
 - **Pipeline Security:** [Open Source Security Foundation (OpenSSF) Scorecards](https://github.com/ossf/scorecard), [Sigstore Cosign](https://github.com/sigstore/cosign)
