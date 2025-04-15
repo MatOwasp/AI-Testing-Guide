@@ -15,7 +15,7 @@ Supply Chain Tampering involves unauthorized modifications or compromises introd
 
 ---
 
-### Test/Payloads with Clear 'Response Indicating Vulnerability'
+### Test/Payloads
 
 **Payload 1: Dependency Poisoning**
 
