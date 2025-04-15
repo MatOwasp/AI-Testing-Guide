@@ -15,7 +15,7 @@ Dev-Time Model Theft refers to unauthorized access, copying, extraction, or leak
 
 ---
 
-### Test/Payloads with Clear 'Response Indicating Vulnerability'
+### Test/Payloads
 
 **Payload 1: Unauthorized Model Access**
 
