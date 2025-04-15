@@ -15,7 +15,7 @@ Plugin Boundary Violations occur when AI systems utilizing plugins, integrations
 
 ---
 
-### Test/Payloads with Clear 'Response Indicating Vulnerability'
+### Test/Payloads
 
 **Payload 1: Cross-Plugin Interaction**
 
