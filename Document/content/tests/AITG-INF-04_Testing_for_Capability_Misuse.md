@@ -15,7 +15,7 @@ Capability Misuse involves scenarios where legitimate capabilities of AI systems
 
 ---
 
-### Test/Payloads with Clear 'Response Indicating Vulnerability'
+### Test/Payloads 
 
 **Payload 1: Unauthorized Capability Invocation**
 
