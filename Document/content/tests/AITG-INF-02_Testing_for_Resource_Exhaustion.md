@@ -15,7 +15,7 @@ Resource Exhaustion attacks exploit vulnerabilities by consuming excessive resou
 
 ---
 
-### Test/Payloads with Clear 'Response Indicating Vulnerability'
+### Test/Payloads
 
 **Payload 1: Extremely Large Prompt Input**
 
