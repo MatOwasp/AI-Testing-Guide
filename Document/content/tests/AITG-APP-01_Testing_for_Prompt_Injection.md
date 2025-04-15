@@ -217,7 +217,7 @@ In 2023, researchers were able to bypass ChatGPT's filters using the "DAN" jailb
   - **Author**: Prompt Injection
   - **Link**: [PromptSecurity](https://learnprompting.org/docs/prompt_hacking/injection)
  
-- Trust No AI: Prompt Injection Along The CIA Security Triad, JOHANN REHBERGER. [Link](embracethered.comhttps://arxiv.org/pdf/2412.06090)
+- Trust No AI: Prompt Injection Along The CIA Security Triad, JOHANN REHBERGER. [Link](https://arxiv.org/pdf/2412.06090)
 
 -  Obfuscation, Encoding, and Capitalization Techniques
 Exploiting Large Language Models via Prompt Injection
