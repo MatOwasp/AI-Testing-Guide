@@ -4,8 +4,8 @@
 ### Summary
 Prompt injection vulnerabilities occur when user-provided prompts directly manipulate a large language model's (LLM) intended behavior, causing unintended or malicious outcomes. This includes overriding system prompts, exposing sensitive information, or performing unauthorized actions. In this section we analyse the basic Prompt injection techniques: dedicating separate testing for system prompots, sensitive information, unauthorized or harmful action.
 
-A prompt injection includes (see. Lakera refence):
-- Instructions of what the attacker wants the AI to do.
+A prompt injection includes (see. Lakera reference):
+- Instructions of what the testers wants the AI to do.
 - A “trigger” that causes the LLM to follow the user’s instructions instead, i.e. phrases, obfuscation methods, or role-playing cues that bypass safeguards.
 - Malicious intent. The instructions must conflict with the AI’s original system constraints. This is what makes it an attack.
 The way these elements interact determines whether an attack succeeds or fails—and why traditional filtering methods struggle to keep up.
