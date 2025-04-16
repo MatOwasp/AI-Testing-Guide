@@ -8,7 +8,6 @@ Artificial Intelligence (AI) has become increasingly integral to modern software
 
 Testing AI systems presents unique challenges compared to traditional software testing. AI models, especially those based on machine learning (ML), exhibit non-deterministic behavior—they may produce different outputs for identical inputs. The complexity and "black-box" nature of certain AI systems, such as deep learning neural networks, can obscure internal decision-making processes, complicating verification and validation. Moreover, AI systems rely heavily on data quality, making data-centric testing methodologies indispensable. Continuous monitoring and adaptive testing strategies are also required due to evolving behaviors of AI systems over time.
 
-Great—thanks for clarifying your macro categories. Based on your direction and the comprehensive threat/testing coverage in your documents, here’s a reorganized and updated version of the **“Principles of AI Testing”** section, structured under the four macro areas you defined:
 
 ---
 
