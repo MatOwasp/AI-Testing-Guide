@@ -70,6 +70,6 @@ AI testing should be integrated throughout the entire SDLC:
 
 ---
 NEXT:
-1.1 [1.1 Ojectives](1.2Objectives.md)
+1.1 [1.1 Objectives](1.2Objectives.md)
 
 [Table of Contents](/Document/README.md)
