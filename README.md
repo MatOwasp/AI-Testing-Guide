@@ -1,4 +1,6 @@
-# Welcome to the AI-Testing-Guide!
+# Welcome to the AI-Testing-Guide! 
+## Note: This is the first version of the Guide, please refer to OWASP AI Testing Guide for the updated version: https://github.com/OWASP/www-project-ai-testing-guide
+
 AI Testing Guide project  is an open-source initiative aimed at providing comprehensive, structured methodologies and best practices for testing artificial intelligence systems.
 
 As AI systems become more integral to critical applications, ensuring their reliability, security, and ethical alignment is paramount. Testing AI systems presents unique challenges that differ significantly from traditional software testing, necessitating specialized approaches and methodologies.
